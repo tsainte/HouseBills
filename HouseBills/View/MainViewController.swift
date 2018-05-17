@@ -10,16 +10,19 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    var viewModel: MainViewModel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        viewModel = MainViewModel(delegate: self)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func starlingConnection(_ sender: Any) {
+        viewModel.loginStarling()
     }
+}
 
+extension MainViewController: MainViewModelDelegate {
 
 }
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>starling</key>
+	<dict>
+		<key>client_id</key>
+		<string>DsFZWLEbXbPWGLqNYziP</string>
+		<key>client_secret</key>
+		<string>YJ0cKm1g2FDqAdYJwzBj9Pd2dgArij4RzgYjYkNZ</string>
+		<key>redirect_link</key>
+		<string>housebills://housebills.co.uk/housebills_starling</string>
+	</dict>
+</dict>
+</plist>

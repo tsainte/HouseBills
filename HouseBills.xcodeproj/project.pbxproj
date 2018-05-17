@@ -14,6 +14,28 @@
 		F1534C2420AD3722004A387B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1534C2320AD3722004A387B /* Assets.xcassets */; };
 		F1534C2720AD3722004A387B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1534C2520AD3722004A387B /* LaunchScreen.storyboard */; };
 		F1534C3220AD3722004A387B /* HouseBillsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1534C3120AD3722004A387B /* HouseBillsTests.swift */; };
+		F167815D20AD3CC900AC4148 /* StarlingTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167815920AD3CC800AC4148 /* StarlingTransaction.swift */; };
+		F167815E20AD3CC900AC4148 /* StarlingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167815A20AD3CC800AC4148 /* StarlingAccount.swift */; };
+		F167815F20AD3CC900AC4148 /* StarlingToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167815B20AD3CC900AC4148 /* StarlingToken.swift */; };
+		F167816020AD3CC900AC4148 /* StarlingBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167815C20AD3CC900AC4148 /* StarlingBalance.swift */; };
+		F167816320AD3D0C00AC4148 /* StarlingParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816220AD3D0C00AC4148 /* StarlingParser.swift */; };
+		F167816620AD3D2400AC4148 /* StarlingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816520AD3D2400AC4148 /* StarlingAPI.swift */; };
+		F167816820AD3D3E00AC4148 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816720AD3D3E00AC4148 /* OAuth2.swift */; };
+		F167816A20AD3DA400AC4148 /* ConfigurationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816920AD3DA400AC4148 /* ConfigurationKeys.swift */; };
+		F167816C20AD3DAF00AC4148 /* configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = F167816B20AD3DAF00AC4148 /* configuration.plist */; };
+		F167817320AD3DEF00AC4148 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816E20AD3DEF00AC4148 /* Balance.swift */; };
+		F167817420AD3DEF00AC4148 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816F20AD3DEF00AC4148 /* Bank.swift */; };
+		F167817520AD3DEF00AC4148 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817020AD3DEF00AC4148 /* Transaction.swift */; };
+		F167817620AD3DEF00AC4148 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817120AD3DEF00AC4148 /* Account.swift */; };
+		F167817720AD3DEF00AC4148 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817220AD3DEF00AC4148 /* Token.swift */; };
+		F167817A20AD3EE400AC4148 /* BankAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817920AD3EE400AC4148 /* BankAPI.swift */; };
+		F167817C20AD3F5800AC4148 /* BankParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817B20AD3F5800AC4148 /* BankParser.swift */; };
+		F167818020AD3FA500AC4148 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817E20AD3FA500AC4148 /* UITableView+Extensions.swift */; };
+		F167818120AD3FA500AC4148 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817F20AD3FA500AC4148 /* UIApplication+Extensions.swift */; };
+		F167818320AD400F00AC4148 /* DateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167818220AD400F00AC4148 /* DateHandler.swift */; };
+		F167818620AD405E00AC4148 /* EmbedSafariManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167818520AD405E00AC4148 /* EmbedSafariManager.swift */; };
+		F167818820AD437900AC4148 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167818720AD437900AC4148 /* MainViewModel.swift */; };
+		F167818A20AD44EE00AC4148 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167818920AD44EE00AC4148 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +61,28 @@
 		F1534C2D20AD3722004A387B /* HouseBillsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseBillsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1534C3120AD3722004A387B /* HouseBillsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBillsTests.swift; sourceTree = "<group>"; };
 		F1534C3320AD3722004A387B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F167815920AD3CC800AC4148 /* StarlingTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarlingTransaction.swift; sourceTree = "<group>"; };
+		F167815A20AD3CC800AC4148 /* StarlingAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarlingAccount.swift; sourceTree = "<group>"; };
+		F167815B20AD3CC900AC4148 /* StarlingToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarlingToken.swift; sourceTree = "<group>"; };
+		F167815C20AD3CC900AC4148 /* StarlingBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarlingBalance.swift; sourceTree = "<group>"; };
+		F167816220AD3D0C00AC4148 /* StarlingParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarlingParser.swift; sourceTree = "<group>"; };
+		F167816520AD3D2400AC4148 /* StarlingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarlingAPI.swift; sourceTree = "<group>"; };
+		F167816720AD3D3E00AC4148 /* OAuth2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2.swift; sourceTree = "<group>"; };
+		F167816920AD3DA400AC4148 /* ConfigurationKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationKeys.swift; sourceTree = "<group>"; };
+		F167816B20AD3DAF00AC4148 /* configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configuration.plist; sourceTree = "<group>"; };
+		F167816E20AD3DEF00AC4148 /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		F167816F20AD3DEF00AC4148 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		F167817020AD3DEF00AC4148 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F167817120AD3DEF00AC4148 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		F167817220AD3DEF00AC4148 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		F167817920AD3EE400AC4148 /* BankAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAPI.swift; sourceTree = "<group>"; };
+		F167817B20AD3F5800AC4148 /* BankParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankParser.swift; sourceTree = "<group>"; };
+		F167817E20AD3FA500AC4148 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		F167817F20AD3FA500AC4148 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		F167818220AD400F00AC4148 /* DateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHandler.swift; sourceTree = "<group>"; };
+		F167818520AD405E00AC4148 /* EmbedSafariManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbedSafariManager.swift; sourceTree = "<group>"; };
+		F167818720AD437900AC4148 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F167818920AD44EE00AC4148 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		F76349E332ED86491A133E5E /* Pods_HouseBills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseBills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +147,8 @@
 			children = (
 				F1534C1C20AD371F004A387B /* AppDelegate.swift */,
 				F1534C4020AD37BB004A387B /* assets */,
+				F167817D20AD3F8800AC4148 /* Extensions */,
+				F167818420AD405300AC4148 /* Managers */,
 				F1534C3D20AD3783004A387B /* Model */,
 				F1534C3E20AD3788004A387B /* View */,
 				F1534C3F20AD378D004A387B /* ViewModel */,
@@ -123,6 +169,10 @@
 		F1534C3C20AD377B004A387B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				F167817820AD3ED500AC4148 /* protocols */,
+				F167816920AD3DA400AC4148 /* ConfigurationKeys.swift */,
+				F167816420AD3D1400AC4148 /* API */,
+				F167816120AD3D0100AC4148 /* Parser */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -130,6 +180,8 @@
 		F1534C3D20AD3783004A387B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F167816D20AD3DEF00AC4148 /* Meta */,
+				F167815820AD3CAF00AC4148 /* Starling */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +199,7 @@
 		F1534C3F20AD378D004A387B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F167818720AD437900AC4148 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -155,9 +208,78 @@
 			isa = PBXGroup;
 			children = (
 				F1534C2320AD3722004A387B /* Assets.xcassets */,
+				F167816B20AD3DAF00AC4148 /* configuration.plist */,
 				F1534C2820AD3722004A387B /* Info.plist */,
 			);
 			path = assets;
+			sourceTree = "<group>";
+		};
+		F167815820AD3CAF00AC4148 /* Starling */ = {
+			isa = PBXGroup;
+			children = (
+				F167815A20AD3CC800AC4148 /* StarlingAccount.swift */,
+				F167815C20AD3CC900AC4148 /* StarlingBalance.swift */,
+				F167815B20AD3CC900AC4148 /* StarlingToken.swift */,
+				F167815920AD3CC800AC4148 /* StarlingTransaction.swift */,
+			);
+			path = Starling;
+			sourceTree = "<group>";
+		};
+		F167816120AD3D0100AC4148 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				F167817B20AD3F5800AC4148 /* BankParser.swift */,
+				F167816220AD3D0C00AC4148 /* StarlingParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		F167816420AD3D1400AC4148 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F167816520AD3D2400AC4148 /* StarlingAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F167816D20AD3DEF00AC4148 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				F167816E20AD3DEF00AC4148 /* Balance.swift */,
+				F167816F20AD3DEF00AC4148 /* Bank.swift */,
+				F167817020AD3DEF00AC4148 /* Transaction.swift */,
+				F167817120AD3DEF00AC4148 /* Account.swift */,
+				F167817220AD3DEF00AC4148 /* Token.swift */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		F167817820AD3ED500AC4148 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F167817920AD3EE400AC4148 /* BankAPI.swift */,
+				F167816720AD3D3E00AC4148 /* OAuth2.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F167817D20AD3F8800AC4148 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F167818220AD400F00AC4148 /* DateHandler.swift */,
+				F167817F20AD3FA500AC4148 /* UIApplication+Extensions.swift */,
+				F167817E20AD3FA500AC4148 /* UITableView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F167818420AD405300AC4148 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F167818920AD44EE00AC4148 /* APIManager.swift */,
+				F167818520AD405E00AC4148 /* EmbedSafariManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1534C2720AD3722004A387B /* LaunchScreen.storyboard in Resources */,
+				F167816C20AD3DAF00AC4148 /* configuration.plist in Resources */,
 				F1534C2420AD3722004A387B /* Assets.xcassets in Resources */,
 				F1534C2220AD371F004A387B /* Main.storyboard in Resources */,
 			);
@@ -302,8 +425,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F167818320AD400F00AC4148 /* DateHandler.swift in Sources */,
+				F167816020AD3CC900AC4148 /* StarlingBalance.swift in Sources */,
 				F1534C1F20AD371F004A387B /* MainViewController.swift in Sources */,
+				F167818120AD3FA500AC4148 /* UIApplication+Extensions.swift in Sources */,
+				F167816A20AD3DA400AC4148 /* ConfigurationKeys.swift in Sources */,
+				F167816620AD3D2400AC4148 /* StarlingAPI.swift in Sources */,
+				F167817C20AD3F5800AC4148 /* BankParser.swift in Sources */,
+				F167816820AD3D3E00AC4148 /* OAuth2.swift in Sources */,
+				F167817520AD3DEF00AC4148 /* Transaction.swift in Sources */,
+				F167817720AD3DEF00AC4148 /* Token.swift in Sources */,
+				F167818620AD405E00AC4148 /* EmbedSafariManager.swift in Sources */,
+				F167816320AD3D0C00AC4148 /* StarlingParser.swift in Sources */,
+				F167818020AD3FA500AC4148 /* UITableView+Extensions.swift in Sources */,
+				F167815E20AD3CC900AC4148 /* StarlingAccount.swift in Sources */,
+				F167817320AD3DEF00AC4148 /* Balance.swift in Sources */,
 				F1534C1D20AD371F004A387B /* AppDelegate.swift in Sources */,
+				F167817420AD3DEF00AC4148 /* Bank.swift in Sources */,
+				F167815F20AD3CC900AC4148 /* StarlingToken.swift in Sources */,
+				F167815D20AD3CC900AC4148 /* StarlingTransaction.swift in Sources */,
+				F167817A20AD3EE400AC4148 /* BankAPI.swift in Sources */,
+				F167818A20AD44EE00AC4148 /* APIManager.swift in Sources */,
+				F167817620AD3DEF00AC4148 /* Account.swift in Sources */,
+				F167818820AD437900AC4148 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
