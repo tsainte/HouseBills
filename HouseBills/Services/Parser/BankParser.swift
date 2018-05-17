@@ -11,7 +11,7 @@ import Foundation
 protocol BankParser {
     func parseAccounts(from data: Data) throws -> [Account]
     func parseBalance(from data: Data, account: Account) throws -> Balance
-    func parseTransactions(from data: Data, account: Account) throws -> [Transaction]
+    func parseTransactions(from data: Data, account: Account) throws -> [BankTransaction]
 
     func parseError(from data: Data) throws -> BankError
 }

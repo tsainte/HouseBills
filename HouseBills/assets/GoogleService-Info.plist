@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>320261596114-26s7ub6qjnuj1et0r9jab27sjdpagtfp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.320261596114-26s7ub6qjnuj1et0r9jab27sjdpagtfp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAlGZKLynlf1a-akmVUNS44UTpFpDpMGtU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>320261596114</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>uk.co.housebills.HouseBills</string>
+	<key>PROJECT_ID</key>
+	<string>open-banking-household</string>
+	<key>STORAGE_BUCKET</key>
+	<string>open-banking-household.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:320261596114:ios:44b90d5b25040267</string>
+	<key>DATABASE_URL</key>
+	<string>https://open-banking-household.firebaseio.com</string>
+</dict>
+</plist>

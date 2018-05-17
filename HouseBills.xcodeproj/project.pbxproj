@@ -25,7 +25,7 @@
 		F167816C20AD3DAF00AC4148 /* configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = F167816B20AD3DAF00AC4148 /* configuration.plist */; };
 		F167817320AD3DEF00AC4148 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816E20AD3DEF00AC4148 /* Balance.swift */; };
 		F167817420AD3DEF00AC4148 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167816F20AD3DEF00AC4148 /* Bank.swift */; };
-		F167817520AD3DEF00AC4148 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817020AD3DEF00AC4148 /* Transaction.swift */; };
+		F167817520AD3DEF00AC4148 /* BankTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817020AD3DEF00AC4148 /* BankTransaction.swift */; };
 		F167817620AD3DEF00AC4148 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817120AD3DEF00AC4148 /* Account.swift */; };
 		F167817720AD3DEF00AC4148 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817220AD3DEF00AC4148 /* Token.swift */; };
 		F167817A20AD3EE400AC4148 /* BankAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167817920AD3EE400AC4148 /* BankAPI.swift */; };
@@ -36,6 +36,11 @@
 		F167818620AD405E00AC4148 /* EmbedSafariManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167818520AD405E00AC4148 /* EmbedSafariManager.swift */; };
 		F167818820AD437900AC4148 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167818720AD437900AC4148 /* MainViewModel.swift */; };
 		F167818A20AD44EE00AC4148 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167818920AD44EE00AC4148 /* APIManager.swift */; };
+		F1CA698F20AD8EAB008C3AD2 /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA698E20AD8EAB008C3AD2 /* FirebaseAPI.swift */; };
+		F1CA699120AD911A008C3AD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1CA699020AD911A008C3AD2 /* GoogleService-Info.plist */; };
+		F1CA699420AD9A65008C3AD2 /* Household.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA699320AD9A65008C3AD2 /* Household.swift */; };
+		F1CA699620AD9AB0008C3AD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA699520AD9AB0008C3AD2 /* User.swift */; };
+		F1CA699820AD9AEC008C3AD2 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CA699720AD9AEC008C3AD2 /* Transaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +77,7 @@
 		F167816B20AD3DAF00AC4148 /* configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configuration.plist; sourceTree = "<group>"; };
 		F167816E20AD3DEF00AC4148 /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
 		F167816F20AD3DEF00AC4148 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
-		F167817020AD3DEF00AC4148 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F167817020AD3DEF00AC4148 /* BankTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTransaction.swift; sourceTree = "<group>"; };
 		F167817120AD3DEF00AC4148 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		F167817220AD3DEF00AC4148 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		F167817920AD3EE400AC4148 /* BankAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAPI.swift; sourceTree = "<group>"; };
@@ -83,6 +88,11 @@
 		F167818520AD405E00AC4148 /* EmbedSafariManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbedSafariManager.swift; sourceTree = "<group>"; };
 		F167818720AD437900AC4148 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		F167818920AD44EE00AC4148 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F1CA698E20AD8EAB008C3AD2 /* FirebaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
+		F1CA699020AD911A008C3AD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1CA699320AD9A65008C3AD2 /* Household.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Household.swift; sourceTree = "<group>"; };
+		F1CA699520AD9AB0008C3AD2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F1CA699720AD9AEC008C3AD2 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		F76349E332ED86491A133E5E /* Pods_HouseBills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseBills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -180,6 +190,7 @@
 		F1534C3D20AD3783004A387B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F1CA699220AD9A49008C3AD2 /* Household */,
 				F167816D20AD3DEF00AC4148 /* Meta */,
 				F167815820AD3CAF00AC4148 /* Starling */,
 			);
@@ -207,6 +218,7 @@
 		F1534C4020AD37BB004A387B /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				F1CA699020AD911A008C3AD2 /* GoogleService-Info.plist */,
 				F1534C2320AD3722004A387B /* Assets.xcassets */,
 				F167816B20AD3DAF00AC4148 /* configuration.plist */,
 				F1534C2820AD3722004A387B /* Info.plist */,
@@ -238,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				F167816520AD3D2400AC4148 /* StarlingAPI.swift */,
+				F1CA698E20AD8EAB008C3AD2 /* FirebaseAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -247,7 +260,7 @@
 			children = (
 				F167816E20AD3DEF00AC4148 /* Balance.swift */,
 				F167816F20AD3DEF00AC4148 /* Bank.swift */,
-				F167817020AD3DEF00AC4148 /* Transaction.swift */,
+				F167817020AD3DEF00AC4148 /* BankTransaction.swift */,
 				F167817120AD3DEF00AC4148 /* Account.swift */,
 				F167817220AD3DEF00AC4148 /* Token.swift */,
 			);
@@ -280,6 +293,16 @@
 				F167818520AD405E00AC4148 /* EmbedSafariManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		F1CA699220AD9A49008C3AD2 /* Household */ = {
+			isa = PBXGroup;
+			children = (
+				F1CA699320AD9A65008C3AD2 /* Household.swift */,
+				F1CA699520AD9AB0008C3AD2 /* User.swift */,
+				F1CA699720AD9AEC008C3AD2 /* Transaction.swift */,
+			);
+			path = Household;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +390,7 @@
 			files = (
 				F1534C2720AD3722004A387B /* LaunchScreen.storyboard in Resources */,
 				F167816C20AD3DAF00AC4148 /* configuration.plist in Resources */,
+				F1CA699120AD911A008C3AD2 /* GoogleService-Info.plist in Resources */,
 				F1534C2420AD3722004A387B /* Assets.xcassets in Resources */,
 				F1534C2220AD371F004A387B /* Main.storyboard in Resources */,
 			);
@@ -390,10 +414,30 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HouseBills/Pods-HouseBills-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CA699620AD9AB0008C3AD2 /* User.swift in Sources */,
 				F167818320AD400F00AC4148 /* DateHandler.swift in Sources */,
 				F167816020AD3CC900AC4148 /* StarlingBalance.swift in Sources */,
 				F1534C1F20AD371F004A387B /* MainViewController.swift in Sources */,
@@ -432,14 +477,16 @@
 				F167816A20AD3DA400AC4148 /* ConfigurationKeys.swift in Sources */,
 				F167816620AD3D2400AC4148 /* StarlingAPI.swift in Sources */,
 				F167817C20AD3F5800AC4148 /* BankParser.swift in Sources */,
+				F1CA698F20AD8EAB008C3AD2 /* FirebaseAPI.swift in Sources */,
 				F167816820AD3D3E00AC4148 /* OAuth2.swift in Sources */,
-				F167817520AD3DEF00AC4148 /* Transaction.swift in Sources */,
+				F167817520AD3DEF00AC4148 /* BankTransaction.swift in Sources */,
 				F167817720AD3DEF00AC4148 /* Token.swift in Sources */,
 				F167818620AD405E00AC4148 /* EmbedSafariManager.swift in Sources */,
 				F167816320AD3D0C00AC4148 /* StarlingParser.swift in Sources */,
 				F167818020AD3FA500AC4148 /* UITableView+Extensions.swift in Sources */,
 				F167815E20AD3CC900AC4148 /* StarlingAccount.swift in Sources */,
 				F167817320AD3DEF00AC4148 /* Balance.swift in Sources */,
+				F1CA699820AD9AEC008C3AD2 /* Transaction.swift in Sources */,
 				F1534C1D20AD371F004A387B /* AppDelegate.swift in Sources */,
 				F167817420AD3DEF00AC4148 /* Bank.swift in Sources */,
 				F167815F20AD3CC900AC4148 /* StarlingToken.swift in Sources */,
@@ -447,6 +494,7 @@
 				F167817A20AD3EE400AC4148 /* BankAPI.swift in Sources */,
 				F167818A20AD44EE00AC4148 /* APIManager.swift in Sources */,
 				F167817620AD3DEF00AC4148 /* Account.swift in Sources */,
+				F1CA699420AD9A65008C3AD2 /* Household.swift in Sources */,
 				F167818820AD437900AC4148 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

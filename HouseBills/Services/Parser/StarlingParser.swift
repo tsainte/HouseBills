@@ -34,10 +34,10 @@ extension StarlingParser: BankParser {
         return balance
     }
 
-    func parseTransactions(from data: Data, account: Account) throws -> [Transaction] {
+    func parseTransactions(from data: Data, account: Account) throws -> [BankTransaction] {
         let response = try StarlingParser.decoder.decode(StarlingTransactionResponse.self, from: data)
         let transactions = response._embedded["transactions"]?.map {
-            Transaction(starlingTransaction: $0, account: account)
+            BankTransaction(starlingTransaction: $0, account: account)
         }
         guard let validTransactions = transactions else { throw BankError.noTransactions }
         return validTransactions

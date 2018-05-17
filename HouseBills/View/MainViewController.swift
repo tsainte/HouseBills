@@ -20,6 +20,10 @@ class MainViewController: UIViewController {
     @IBAction func starlingConnection(_ sender: Any) {
         viewModel.loginStarling()
     }
+
+    @IBAction func fetchHousehold(_ sender: Any) {
+        viewModel.fetchHousehold()
+    }
 }
 
 extension MainViewController: MainViewModelDelegate {

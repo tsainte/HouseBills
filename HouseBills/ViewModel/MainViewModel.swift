@@ -13,8 +13,9 @@ protocol MainViewModelDelegate: class {
 
 class MainViewModel {
     weak var delegate: MainViewModelDelegate?
-    var bankApi = APIManager.shared.bankApi(from: .starling)
-    
+    var bankAPI = APIManager.shared.bankApi(from: .starling)
+    let firebaseAPI = FirebaseAPI()
+
     init(delegate: MainViewModelDelegate) {
         self.delegate = delegate
     }
@@ -22,6 +23,9 @@ class MainViewModel {
 
 extension MainViewModel {
     func loginStarling() {
-        bankApi?.requestAuthenticationCode()
+        bankAPI?.requestAuthenticationCode()
+    }
+    func fetchHousehold() {
+        firebaseAPI.fetchHousehold()
     }
 }

@@ -38,6 +38,6 @@ protocol BankAPI: OAuth2 {
                     failure: @escaping (BankError) -> Void)
 
     func getTransactions(account: Account,
-                         success: @escaping ([Transaction]) -> Void,
+                         success: @escaping ([BankTransaction]) -> Void,
                          failure: @escaping (BankError) -> Void)
 }

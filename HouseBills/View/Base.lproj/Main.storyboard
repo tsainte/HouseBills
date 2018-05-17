@@ -19,11 +19,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bao-Xn-p7h">
-                                <rect key="frame" x="106" y="70" width="162" height="30"/>
+                                <rect key="frame" x="83" y="70" width="208" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="test starling connection"/>
+                                <state key="normal" title="test starling OAuth connection"/>
                                 <connections>
                                     <action selector="starlingConnection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Io-8L-Es7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AdD-jw-kfk">
+                                <rect key="frame" x="130" y="108" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fetch household"/>
+                                <connections>
+                                    <action selector="fetchHousehold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Hc-BN-aHp"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Transaction: NSObject {
+class BankTransaction: NSObject {
 
     var account: Account?
 

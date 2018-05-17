@@ -143,7 +143,7 @@ extension StarlingAPI: BankAPI {
     }
 
     func getTransactions(account: Account,
-                         success: @escaping ([Transaction]) -> Void,
+                         success: @escaping ([BankTransaction]) -> Void,
                          failure: @escaping (BankError) -> Void) {
         guard let token = self.token?.accessToken else { failure(.noToken); return }
 
