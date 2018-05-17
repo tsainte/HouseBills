@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C08014E83AF97BD1490A133 /* Pods_HouseBills.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76349E332ED86491A133E5E /* Pods_HouseBills.framework */; };
 		F1534C1D20AD371F004A387B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1534C1C20AD371F004A387B /* AppDelegate.swift */; };
-		F1534C1F20AD371F004A387B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1534C1E20AD371F004A387B /* ViewController.swift */; };
+		F1534C1F20AD371F004A387B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1534C1E20AD371F004A387B /* MainViewController.swift */; };
 		F1534C2220AD371F004A387B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1534C2020AD371F004A387B /* Main.storyboard */; };
 		F1534C2420AD3722004A387B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1534C2320AD3722004A387B /* Assets.xcassets */; };
 		F1534C2720AD3722004A387B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1534C2520AD3722004A387B /* LaunchScreen.storyboard */; };
@@ -26,9 +27,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EEA0D2CD02D6B58B6AAF340 /* Pods-HouseBills.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseBills.release.xcconfig"; path = "Pods/Target Support Files/Pods-HouseBills/Pods-HouseBills.release.xcconfig"; sourceTree = "<group>"; };
+		45D794230B8BC4D42CAD743A /* Pods-HouseBills.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseBills.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HouseBills/Pods-HouseBills.debug.xcconfig"; sourceTree = "<group>"; };
 		F1534C1920AD371F004A387B /* HouseBills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseBills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1534C1C20AD371F004A387B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1534C1E20AD371F004A387B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1534C1E20AD371F004A387B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F1534C2120AD371F004A387B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1534C2320AD3722004A387B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1534C2620AD3722004A387B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		F1534C2D20AD3722004A387B /* HouseBillsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseBillsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1534C3120AD3722004A387B /* HouseBillsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBillsTests.swift; sourceTree = "<group>"; };
 		F1534C3320AD3722004A387B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76349E332ED86491A133E5E /* Pods_HouseBills.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseBills.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C08014E83AF97BD1490A133 /* Pods_HouseBills.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248EB08809A29D98E3623D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45D794230B8BC4D42CAD743A /* Pods-HouseBills.debug.xcconfig */,
+				3EEA0D2CD02D6B58B6AAF340 /* Pods-HouseBills.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADF5C161E74341E8FA81CF8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76349E332ED86491A133E5E /* Pods_HouseBills.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1534C1020AD371E004A387B = {
 			isa = PBXGroup;
 			children = (
 				F1534C1B20AD371F004A387B /* HouseBills */,
 				F1534C3020AD3722004A387B /* HouseBillsTests */,
 				F1534C1A20AD371F004A387B /* Products */,
+				248EB08809A29D98E3623D39 /* Pods */,
+				ADF5C161E74341E8FA81CF8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				F1534C1C20AD371F004A387B /* AppDelegate.swift */,
-				F1534C1E20AD371F004A387B /* ViewController.swift */,
-				F1534C2020AD371F004A387B /* Main.storyboard */,
-				F1534C2320AD3722004A387B /* Assets.xcassets */,
-				F1534C2520AD3722004A387B /* LaunchScreen.storyboard */,
-				F1534C2820AD3722004A387B /* Info.plist */,
+				F1534C4020AD37BB004A387B /* assets */,
+				F1534C3D20AD3783004A387B /* Model */,
+				F1534C3E20AD3788004A387B /* View */,
+				F1534C3F20AD378D004A387B /* ViewModel */,
+				F1534C3C20AD377B004A387B /* Services */,
 			);
 			path = HouseBills;
 			sourceTree = "<group>";
@@ -96,6 +120,46 @@
 			path = HouseBillsTests;
 			sourceTree = "<group>";
 		};
+		F1534C3C20AD377B004A387B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F1534C3D20AD3783004A387B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1534C3E20AD3788004A387B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1534C2520AD3722004A387B /* LaunchScreen.storyboard */,
+				F1534C2020AD371F004A387B /* Main.storyboard */,
+				F1534C1E20AD371F004A387B /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1534C3F20AD378D004A387B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F1534C4020AD37BB004A387B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				F1534C2320AD3722004A387B /* Assets.xcassets */,
+				F1534C2820AD3722004A387B /* Info.plist */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1534C3620AD3722004A387B /* Build configuration list for PBXNativeTarget "HouseBills" */;
 			buildPhases = (
+				DB2FEA9843808B62561DF33D /* [CP] Check Pods Manifest.lock */,
 				F1534C1520AD371E004A387B /* Sources */,
 				F1534C1620AD371E004A387B /* Frameworks */,
 				F1534C1720AD371E004A387B /* Resources */,
+				4F2F8BA39177FF4DE8207C81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,12 +258,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F2F8BA39177FF4DE8207C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HouseBills/Pods-HouseBills-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HouseBills/Pods-HouseBills-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2FEA9843808B62561DF33D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HouseBills-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1534C1520AD371E004A387B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1534C1F20AD371F004A387B /* ViewController.swift in Sources */,
+				F1534C1F20AD371F004A387B /* MainViewController.swift in Sources */,
 				F1534C1D20AD371F004A387B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,10 +461,11 @@
 		};
 		F1534C3720AD3722004A387B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D794230B8BC4D42CAD743A /* Pods-HouseBills.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HouseBills/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HouseBills/assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,10 +479,11 @@
 		};
 		F1534C3820AD3722004A387B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEA0D2CD02D6B58B6AAF340 /* Pods-HouseBills.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HouseBills/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HouseBills/assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
